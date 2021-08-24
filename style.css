@@ -1,0 +1,108 @@
+body {
+    background: #EDE9DE;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    color: #7F3E6A;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+h3 {
+    text-align: center;
+    color: #162722;
+}
+
+#Rounds {
+    text-align: center;
+    color: #162722;
+    font-size: 1.3rem;
+}
+
+#scoreBoard {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: #162722;
+    font-size: 1.3rem;
+    /* max-width: 350px; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.scoreCounters {
+   max-width: 350px;
+    width: 100%;
+    margin: auto;
+}
+
+#computerScore {
+    width: 50%;
+    float: left;
+}
+
+#playerScore {
+    width: 50%;
+    float: left;
+}
+
+#gameBoard {
+    width: 41%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.choices {
+    width: 33%;
+    height: 200px;
+    float: left;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#playerChoice > .innerImages {
+    margin-left: 25%;
+}
+
+.innerImages {
+    height: 100%;
+    width: auto;
+}
+
+#selection {
+    width: 100%;
+    text-align: center;
+}
+
+#result {
+    width: 100%;
+    text-align: center;
+}
+
+#finalResult {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-container {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.buttons {
+    background-color: #EDE9DE;
+    border: 1px solid #7F3E6A;
+    color: #7F3E6A;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
